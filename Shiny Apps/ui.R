@@ -53,7 +53,7 @@ shinyUI(fluidPage(
                                 br(),
                                 strong('Developed by Niranjan Kumar'),
                                 br(),
-                                a("Overview presentation", href="http://http://rpubs.com/niran1989/WordPrediction"),
+                                a("Overview presentation", href="http://rpubs.com/niran1989/WordPrediction"),
                                 br(),
                                 a("Source code - GitHub", href="https://github.com/NiranjanKumar1989/DataScienceCapstone"),
                                 br()
