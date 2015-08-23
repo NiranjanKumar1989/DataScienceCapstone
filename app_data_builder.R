@@ -3,6 +3,7 @@ rm(list=ls())
 libs <- c('RWeka', 'tm', 'data.table', 'stringr', 'hashFunction', 'parallel')
 lapply(libs, suppressPackageStartupMessages(require), character.only = TRUE)
 
+
 #Preparing the parallel cluster using the cores
 gc(reset=T)
 cl <- makeCluster(detectCores()-2)
